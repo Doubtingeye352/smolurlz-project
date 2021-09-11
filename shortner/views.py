@@ -16,7 +16,7 @@ def create(request):
         uid = str(uuid.uuid4())[:5]
         new_url = Url(link=link,uuid=uid)
         new_url.save()
-        return render(request, 'finished.html', {'final': "http://127.0.0.1:8000/"+uid})
+        return render(request, 'finished.html', {'final': "https://smolurlz.herokuapp.com/"+uid})
 
 def go(request, pk):
     url_details = Url.objects.get(uuid=pk)

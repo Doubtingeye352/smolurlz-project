@@ -16,6 +16,14 @@ def create(request):
         uid = str(uuid.uuid4())[:5]
         new_url = Url(link=link,uuid=uid)
         new_url.save()
+        
+        try:
+            copy = request.POST.get('text')
+            pyperclip.copy(copy)
+            pyperclip.paste()
+            
+        except:
+            return render(request,'finished.html', {'final': "https://smolurlz.herokuapp.com/"+uid})
         return render(request, 'finished.html', {'final': "https://smolurlz.herokuapp.com/"+uid})
 
 def go(request, pk):

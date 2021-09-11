@@ -1,4 +1,3 @@
 # smolurlz-project
 
-
-OFFICIAL SMOLURLZ WEBSITE CODE THIS WEBSITE IS COPYRIGHTED YOU MAY USE THE CODE IN YOUR WEBSITE BUT YOU CANT PUBLISH THE EXACT THE SAME WEBSITE AS IN HERE.
+smolurlz website github repo for public you can add your own ideas here please make sure to not publish the exact same website in your name this website is copyrighted.

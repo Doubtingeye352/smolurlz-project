@@ -4,3 +4,5 @@ smolurlz website github repo for public you can add your own ideas here please m
 
 
 Url: https://smolurlz.herokuapp.com
+
+Edit website will be hosted again soon
